@@ -1,0 +1,126 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbox{
+    display: flex;
+    height: 20vh;
+    background-color: darkgoldenrod; 
+}
+
+
+.gameControl{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: auto;
+    height: 85%;
+    width: 45%;
+    border: 2px solid black;
+}
+
+.btn{ 
+    
+    height:4rem;
+    width:4rem;
+    color:aliceblue;
+    border: none;
+    border-radius: 100%;
+}
+.start_btn{
+    background-color: green;
+}
+.stop_btn{
+    background-color: red;
+}
+.restart_btn{
+    background-color: blue;
+}
+
+.gameInfo{
+    display: flex;
+    align-items:end ;
+    margin: auto;
+    height: 85%;
+    width: 45%;
+    border: 2px solid black;
+}
+
+.c_score{
+    align-content:end;
+    height: 100%;
+    width: 65%;
+    color: rgb(2, 255, 2);
+    background-color: rgb(156, 198, 156);
+}
+.h_score{
+    align-content:end;
+    height:100%;
+    width: 35%;
+    color:red;
+    background-color:rgb(179, 95, 95) ;
+}
+
+.c_score h1{
+    display: flex;
+    justify-content: center;
+
+    font-size:50px ;
+    border: 2px solid;
+}
+.h_score h1{
+    display: flex;
+    justify-content: center;
+
+    font-size:30px ;
+    border: 2px solid;
+}
+.c_score h3{
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+}
+.h_score h3{
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+}
+
+
+
+/* ----------------------------------------------------------------- */
+.gameScreen{
+    /* there are some margin to remove */
+    margin:auto;
+    margin-top: 5vh;
+    height: 70vh;
+    width: 70vh;
+    background-color: chartreuse;
+    border: 0.5vh solid black;
+}
+.row{
+    display:flex;
+    height:6.8vh;
+    background-color: red;
+    border: 0.1vh solid black;
+}
+.col{
+    height:100%;
+    width: 10%;
+    background-color: rgb(241, 181, 181);
+    /* background-color: rgb(84, 83, 184); */
+    border: 0.5px solid black;  
+}
+/* .col{
+    background-color: blue;
+} */
+.game_over{
+    display: none;
+    justify-content: center;
+    color:red;
+    font-size: 50px;
+
+}
+
